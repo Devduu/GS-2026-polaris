@@ -40,7 +40,7 @@ export default function Home() {
           caption="LANÇAMENTOS AO ESPAÇO EM 2024"
           source="FONTE: AVIATION WEEK, JONATHAN'S SPACE REPORT"
         >
-          Recorde mundial pelo quarto ano consecutivo: <span className="text-white">de 168 em 2022
+          Recorde mundial pelo quarto ano consecutivo: <span className="text-white">de 186 em 2022
           para 263 em 2024</span>. Cada foguete leva dezenas de satélites de uma vez.
         </VoceSabia>
 
@@ -161,7 +161,7 @@ export default function Home() {
           caption="MISSÕES LUNARES PLANEJADAS ATÉ 2030"
           source="FONTE: NASA ARTEMIS PROGRAM, MORGAN STANLEY SPACE REPORT"
         >
-          Todas dependem de software autônomo de frota. Hoje, esse software é dominado por{' '}
+          Muitas dependem de software autônomo de frota. Hoje, esse software é dominado por{' '}
           <span className="text-black">poucas empresas, todas estrangeiras</span>.
         </VoceSabia>
 
