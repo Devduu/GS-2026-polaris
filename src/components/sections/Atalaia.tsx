@@ -66,7 +66,7 @@ export function Atalaia() {
           <p className="mb-16 max-w-2xl text-[15px] font-light leading-relaxed text-black md:text-lg">
             Porta de entrada da Terra Indígena Vale do Javari, a segunda maior do Brasil. Acesso só
             por rio (vários dias de barco desde Manaus) ou aéreo. Nas comunidades do interior não há
-            cobertura móvel, e a fibra federal que chega à sede não alcança até lá. 80 crianças sem
+            cobertura móvel, e a fibra federal que chega à sede não alcança até lá. Dezenas de crianças sem
             conexão confiável.
           </p>
         </AnimatedReveal>

@@ -19,7 +19,7 @@ const PERSONAS = [
     meta: '38 anos, Atalaia do Norte/AM',
     image: '/images/persona-anapaula.png',
     imageAlt: 'Professora e crianças indígenas assistindo conteúdo educacional em tablet, com antena Starlink ao fundo',
-    pain: 'Material didático chega de barco a cada 3 semanas. Internet instável quando existe, 80 crianças sem acesso digital confiável.',
+    pain: 'Material didático chega de barco a cada 3 semanas. Internet instável quando existe, dezenas de crianças sem acesso digital confiável.',
     goal: 'Manter aula rodando mesmo quando o satélite cai. Acesso a conteúdo educacional offline-first.',
   },
   {
