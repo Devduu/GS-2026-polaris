@@ -2,6 +2,8 @@
 
 > **A estrela que guia decisões.**
 
+🌐 **Site no ar:** [gs-2026-polaris.vercel.app](https://gs-2026-polaris.vercel.app)
+
 Landing page institucional da **POLARIS**, uma plataforma brasileira de inteligência espacial que transforma dados invisíveis de satélites em decisões reais: monitoramento ambiental, conectividade em regiões remotas e controle de frota autônoma em missões espaciais.
 
 ![Next.js](https://img.shields.io/badge/Next.js-14-000000?logo=nextdotjs&logoColor=white)
