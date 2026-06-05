@@ -8,7 +8,7 @@ const PILLARS = [
   {
     tag: 'CONNECT',
     title: 'Conexão estável pela primeira vez na escola.',
-    body: 'Antena Starlink no telhado + Edge Box dentro da creche com vídeos de aula e PDFs em cache local. Quando o satélite cai, a aula continua.',
+    body: 'Antena Starlink no telhado + Edge Box dentro da escola com vídeos de aula e PDFs em cache local. Quando o satélite cai, a aula continua.',
   },
   {
     tag: 'EARTH',

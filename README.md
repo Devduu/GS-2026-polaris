@@ -18,7 +18,7 @@ Landing page institucional da **POLARIS**, uma plataforma brasileira de intelig�
 
 A POLARIS nasceu como projeto da **Global Solution 2026 da FIAP** (1º semestre, Engenharia de Software, turma 2ESPH), sob o tema **Indústria Espacial**. A ideia central é simples: pegar os dados que vêm do espaço e transformá-los em decisão útil aqui na Terra.
 
-Assim como a Estrela do Norte guia navegantes há mais de 3.000 anos, a POLARIS é o ponto de referência entre o que acontece em órbita e o que precisa ser decidido no chão.
+Assim como a Estrela do Norte guia navegantes há mais de mil anos, a POLARIS é o ponto de referência entre o que acontece em órbita e o que precisa ser decidido no chão.
 
 Este repositório é a **vitrine institucional** da empresa: uma página única, longa e cinematográfica, que apresenta o problema, a solução e o impacto.
 
@@ -67,24 +67,6 @@ Outros comandos úteis:
 npm run build   # gera a versão de produção
 npm run start   # roda a versão de produção já gerada
 npm run lint    # verifica o código com o ESLint
-```
-
-## Estrutura do projeto
-
-```text
-polaris-landing/
-  public/
-    images/          imagens da landing
-  src/
-    app/             páginas, layout e estilos globais (App Router)
-    components/
-      layout/        header, rodapé, navegação e efeitos de fundo
-      sections/      cada seção da página (hero, problemas, produtos, caso, impacto)
-      ui/            peças reutilizáveis (cards, contadores, títulos animados)
-    constants/       textos do site e tokens de design (cores, durações)
-    hooks/           hooks de scroll, parallax, contador e afins
-    lib/             funções utilitárias
-    types/           tipos TypeScript compartilhados
 ```
 
 ## Equipe

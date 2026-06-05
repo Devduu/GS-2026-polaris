@@ -76,7 +76,7 @@ export function Diferenciais() {
           <div className="grid grid-cols-[1fr_1.4fr_1.4fr] gap-6 border-b border-white/15 py-5 font-mono text-[11px] tracking-[0.2em] text-greyfade">
             <div>DIMENSÃO</div>
             <div>CONCORRENTES</div>
-            <div className="border-l border-fire/40 bg-fire/[0.04] pl-5 text-fire">POLARIS</div>
+            <div className="border-l border-fire/40 pl-5 text-fire">POLARIS</div>
           </div>
           {DIFF_ROWS.map(([dimension, competitors, polaris]) => (
             <div
@@ -85,7 +85,7 @@ export function Diferenciais() {
             >
               <div className="pt-1 font-mono text-[12px] tracking-[0.16em] text-fire">{dimension}</div>
               <div className="text-[15px] font-light leading-relaxed text-greyfade">{competitors}</div>
-              <div className="border-l border-fire/25 bg-fire/[0.04] pl-5 text-[15px] font-light leading-relaxed text-white">
+              <div className="border-l border-fire/25 pl-5 text-[15px] font-light leading-relaxed text-white">
                 {polaris}
               </div>
             </div>

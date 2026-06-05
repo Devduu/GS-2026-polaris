@@ -47,9 +47,9 @@ export default function Home() {
         <VoceSabia
           label="Você sabia, Brasil"
           tone="light"
-          eyebrow="DADOS DO SETOR"
+          eyebrow="VOCÊ SABIA?"
           staticNumber="1990"
-          caption="BRASIL OPERA UM CENTRO ESPACIAL DESDE"
+          caption="BRASIL LANÇA DE ALCÂNTARA DESDE"
           source="FONTE: AEB, AGÊNCIA ESPACIAL BRASILEIRA"
         >
           O{' '}
@@ -103,7 +103,7 @@ export default function Home() {
                 <span className="text-fire">2,4 mi</span> de pessoas afetadas
               </p>
               <p className="font-light text-black">
-                <span className="text-fire">183</span> mortes confirmadas
+                <span className="text-fire">184</span> mortes confirmadas
               </p>
             </div>
           }
@@ -124,8 +124,8 @@ export default function Home() {
           caption="DO BRASIL MONITORADO POR SATÉLITE"
           source="FONTE: INPE"
         >
-          Os satélites do INPE cobrem <span className="text-white">todo o território nacional</span>,
-          e os dados são públicos e gratuitos desde 1988. O gargalo não é o dado, é a camada que
+          Os satélites do INPE monitoram <span className="text-white">todo o território nacional</span>{' '}
+          desde 1988, e os dados são públicos e gratuitos. O gargalo não é o dado, é a camada que
           transforma o dado em decisão rápida no município.
         </VoceSabia>
 
@@ -145,7 +145,7 @@ export default function Home() {
             </p>
           }
           source="FONTE: ANATEL, PLANO NACIONAL DE CONECTIVIDADE"
-          body="Isso significa escolas rurais sem aulas digitais, postos de saúde sem telemedicina e comunidades indígenas completamente isoladas. As operadoras não chegam porque não dá lucro instalar fibra em regiões com poucos habitantes. E o Estado, sozinho, não dá conta da escala."
+          body="Isso significa escolas rurais sem aulas digitais, postos de saúde sem telemedicina e comunidades indígenas em grande parte desconectadas. As operadoras não chegam porque não dá lucro instalar fibra em regiões com poucos habitantes. E o Estado, sozinho, não dá conta da escala."
           quote="Mesmo onde o Starlink chega, a internet trava em momentos críticos e quem depende dela perde aula, perde consulta médica, perde direito básico de existir digitalmente."
         />
 
@@ -182,7 +182,7 @@ export default function Home() {
             </p>
           }
           source="FONTE: NASA JET PROPULSION LABORATORY"
-          body="Programas como o Artemis (NASA) e as missões lunares privadas dependem hoje de software autônomo dominado por empresas americanas e chinesas. O Brasil já provou que sabe construir tecnologia espacial própria, a Visiona desenvolveu o VCUB1, primeiro nanossatélite brasileiro de observação da Terra, mas ainda não existe uma alternativa nacional consolidada em sistemas autônomos."
+          body="Programas como o Artemis (NASA) e as missões lunares privadas dependem hoje de software autônomo dominado por empresas americanas e chinesas. O Brasil já provou que sabe construir tecnologia espacial própria, a Visiona desenvolveu o VCUB1, primeiro nanossatélite de observação da Terra feito pela indústria nacional, mas ainda não existe uma alternativa nacional consolidada em sistemas autônomos."
           quote="A POLARIS é nossa proposta para preencher esse vazio com tecnologia brasileira pensada para o nosso contexto."
         />
 
@@ -195,10 +195,10 @@ export default function Home() {
           index="01"
           name="POLARIS EARTH"
           title="Monitoramento ambiental e resposta a desastres"
-          intro="A POLARIS Earth observa o Brasil a partir do espaço e calcula automaticamente onde a Defesa Civil, os Bombeiros e os órgãos ambientais devem chegar primeiro. Combinamos dados de satélites públicos (NASA, INPE, ESA Sentinel) com dados demográficos do IBGE para construir um índice de risco por município em tempo real."
-          detail="Quando uma enchente atinge cinquenta cidades, o coordenador não precisa decidir no improviso. Ele recebe uma rota ótima de atendimento calculada por algoritmos de otimização, pode aprovar com um clique, e as equipes saem em cinco minutos para os lugares certos, na ordem certa."
+          intro="A POLARIS Earth observa o Brasil a partir do espaço e calcula automaticamente onde a Defesa Civil, os Bombeiros e os órgãos ambientais devem chegar primeiro. A cada atualização, centenas de milhares de focos de calor e leituras de satélite (NASA, INPE, ESA Sentinel) são limpos e cruzados com dados demográficos do IBGE até virarem um índice de risco por município, em tempo real."
+          detail="Quando uma enchente atinge dezenas de cidades, o coordenador não decide no improviso. A plataforma desenha o estado como uma malha de municípios ligados pelas estradas, ordena cada cidade pelo risco e calcula a sequência de atendimento de menor custo. Ele aprova a rota com um clique, e as equipes saem para os lugares certos, na ordem certa."
           whoUses="Defesa Civil estadual e municipal, Corpo de Bombeiros, IBAMA, Cooperativas agrícolas, Secretarias estaduais de meio ambiente"
-          example="Maio de 2024, enchente atinge 478 municípios no RS. Dois anos depois, ainda existem famílias desabrigadas porque a logística de resgate falhou nas primeiras 72 horas. Com a POLARIS Earth, a sequência de atendimento teria sido entregue em segundos."
+          example="Maio de 2024, enchente atinge 478 municípios no RS. Nas primeiras 72 horas, as que mais decidem quem vive, a logística de resgate falhou e equipes foram para o lugar errado. A proposta da POLARIS Earth é calcular essa sequência de atendimento automaticamente, tirando a decisão do improviso."
           image="/images/imagegs10.png"
           imageAlt="Satélite observando a América do Sul a partir da órbita"
           imageSide="right"
@@ -211,9 +211,9 @@ export default function Home() {
           name="POLARIS CONNECT"
           title="Conectividade satelital resiliente para regiões remotas"
           intro="A POLARIS Connect combina internet via satélite (Starlink) com edge computing local, um pequeno servidor instalado dentro da escola ou do posto de saúde. A diferença é simples: quando o satélite cai (chuva forte, sombra de árvore, sinal instável), o sistema continua funcionando porque os conteúdos críticos já estão em cache local."
-          detail="Não é só Starlink. É Starlink mais inteligência local que mantém alunos assistindo aula, médicos atendendo via telemedicina e o sistema escolar rodando mesmo quando a janela de satélite fecha. Quando a janela volta, tudo sincroniza com a nuvem."
+          detail="Não é só Starlink. Dentro da escola, a conexão é separada em duas redes isoladas, uma para as salas e o laboratório, outra para a coordenação e a administração, e o servidor local guarda as aulas em cache. Os alunos seguem assistindo aula e o posto de saúde atendendo mesmo quando a janela de satélite fecha. Quando ela volta, tudo sincroniza com a nuvem."
           whoUses="Secretarias municipais de educação e saúde, FUNAI, ONGs em regiões remotas, Escolas indígenas, Postos de saúde isolados"
-          example="Uma escola em comunidade ribeirinha de Atalaia do Norte/AM (Vale do Javari). Antes: material didático vinha de barco a cada três semanas, conexão inexistente ou instável, professora dependia de papel. Depois: dezenas de crianças assistem aulas em vídeo armazenadas localmente, sem depender da estabilidade do satélite."
+          example="Numa escola ribeirinha de Atalaia do Norte/AM, no Vale do Javari, na fronteira com o Peru, a fibra federal chega à sede do município, mas não alcança as comunidades do interior. Sem cobertura de celular e com conexão instável ou inexistente, a professora ainda depende do material impresso que vem de barco. A POLARIS Connect instala um Starlink com um servidor local na escola, que guarda as aulas em vídeo, pra que dezenas de crianças sigam estudando mesmo quando o satélite sai do ar."
           image="/images/imagegs7.png"
           imageAlt="Cabana com antena Starlink à noite, janela iluminada de laranja na floresta"
           imageObjectPosition="center 60%"
@@ -226,8 +226,8 @@ export default function Home() {
           index="03"
           name="POLARIS FLEET"
           title="Controle de frota autônoma em missões espaciais"
-          intro="A POLARIS Fleet é o software brasileiro que controla frotas de sondas (rovers, drones) em missões lunares e marcianas. Como o delay de comunicação Terra-Marte chega a 22 minutos, é impossível pilotar manualmente. As sondas precisam decidir sozinhas. E essa decisão precisa ser segura, rastreável e auditável."
-          detail="O Comandante de Missão envia comandos estratégicos (colete 50 kg de gelo na cratera Shackleton e volte antes da bateria cair a 20%). Cada sonda valida sozinha se tem bateria, decide o caminho considerando o terreno, executa a missão e reporta. Falhas críticas viram alertas imediatos."
+          intro="A POLARIS Fleet é o software brasileiro que controla frotas de sondas (rovers, drones) em missões lunares e marcianas. Em Marte, o delay de comunicação chega a 22 minutos; na Lua, a sonda fica sem contato sempre que perde a linha de visada com a Terra. Nos dois casos, é impossível pilotar manualmente, e as sondas precisam decidir sozinhas. E essa decisão precisa ser segura, rastreável e auditável."
+          detail="O Comandante de Missão envia comandos estratégicos (colete 50 kg de gelo na cratera Shackleton e volte antes da bateria cair a 20%). Cada sonda, mineradora ou exploradora, cumpre a rotina do seu jeito: confere a própria bateria, recusa terreno onde não pode entrar, para antes de estourar a carga e reporta ao centro de comando. Falha crítica vira alerta na hora, em vez de derrubar a missão."
           whoUses="Agência Espacial Brasileira (AEB), Visiona Tecnologia Espacial, Centros de pesquisa universitários, Empresas brasileiras do programa Artemis (NASA)"
           example="Base lunar no polo sul, Comandante despacha três sondas para extrair gelo. As sondas operam de forma autônoma: uma desvia de uma cratera fora do mapa, outra atinge limite de carga e volta, a terceira tem falha de bateria. O sistema alerta o Comandante, que despacha sonda reserva. Missão concluída sem ele pilotar nada."
           image="/images/imagegs18.png"
@@ -258,7 +258,7 @@ export default function Home() {
           caption="ECONOMIA ESPACIAL ATÉ 2035"
           source="FONTE: WORLD ECONOMIC FORUM, MCKINSEY"
         >
-          Maior que toda a <span className="text-white">indústria farmacêutica global</span> atual.
+          Vai rivalizar com a <span className="text-white">indústria global de semicondutores</span>.
           O Brasil tem uma chance única de se posicionar nesta década.
         </VoceSabia>
 
@@ -271,7 +271,7 @@ export default function Home() {
           tone="light"
           eyebrow="VOCÊ SABIA?"
           stat={{
-            target: 3000,
+            target: 1000,
             thousands: true,
             unit: '+',
             unitClassName: 'ml-1 align-top text-[0.4em]',
@@ -280,8 +280,8 @@ export default function Home() {
           caption="ANOS GUIANDO NAVEGADORES"
           source="FONTE: NASA ASTRONOMY"
         >
-          A estrela Polaris brilha há cerca de <span className="text-black">70 milhões de anos</span>{' '}
-          e guiou navegadores por mais de 3.000. A POLARIS, a plataforma, começou em maio de 2026.
+          A estrela Polaris brilha há <span className="text-black">dezenas de milhões de anos</span>{' '}
+          e guiou navegadores por mais de mil anos. A POLARIS, a plataforma, começou em maio de 2026.
         </VoceSabia>
 
         <Interstitial label="Transição, manifesto" starfield className="flex min-h-[78vh] md:min-h-screen">

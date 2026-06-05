@@ -12,7 +12,7 @@ const PRODUCTS = [
     tag: 'CONNECT',
     num: '02',
     title: 'Conectividade satelital',
-    body: 'Starlink + edge computing local mantém escolas e postos isolados conectados, mesmo offline.',
+    body: 'Starlink + edge computing local mantém escolas e postos isolados funcionando, mesmo offline.',
   },
   {
     tag: 'FLEET',

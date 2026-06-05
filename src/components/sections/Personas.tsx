@@ -10,7 +10,7 @@ const PERSONAS = [
     image: '/images/persona-mariana.png',
     imageAlt: 'Coordenadora da Defesa Civil no centro de operações, monitorando o mapa de risco de enchente do RS',
     pain: 'Toma decisões com mapa em papel e celular tocando sem parar. Tempo de resposta atrasa horas.',
-    goal: 'Receber rota otimizada de atendimento em segundos para salvar mais vidas em desastres climáticos.',
+    goal: 'Receber a rota de atendimento já priorizada, a tempo de salvar mais vidas em desastres climáticos.',
   },
   {
     tag: 'CONNECT',
@@ -19,8 +19,8 @@ const PERSONAS = [
     meta: '38 anos, Atalaia do Norte/AM',
     image: '/images/persona-anapaula.png',
     imageAlt: 'Professora e crianças indígenas assistindo conteúdo educacional em tablet, com antena Starlink ao fundo',
-    pain: 'Material didático chega de barco a cada 3 semanas. Internet instável quando existe, dezenas de crianças sem acesso digital confiável.',
-    goal: 'Manter aula rodando mesmo quando o satélite cai. Acesso a conteúdo educacional offline-first.',
+    pain: 'Material didático que só chega de barco. Internet instável quando existe, dezenas de crianças sem acesso digital confiável.',
+    goal: 'Manter aula rodando mesmo quando o satélite cai. Acesso a conteúdo educacional mesmo sem internet.',
   },
   {
     tag: 'FLEET',
@@ -29,7 +29,7 @@ const PERSONAS = [
     meta: '45 anos, São José dos Campos/SP',
     image: '/images/persona-helena.png',
     imageAlt: 'Comandante de missão na sala de controle da missão lunar brasileira, painel da cratera Shackleton ao fundo',
-    pain: 'Dependência de software autônomo americano em missões brasileiras. Sem alternativa nacional auditável.',
+    pain: 'Dependência de software autônomo estrangeiro em missões brasileiras. Sem alternativa nacional auditável.',
     goal: 'Operar frota de sondas com tecnologia brasileira, decisões rastreáveis e custo competitivo.',
   },
 ];
