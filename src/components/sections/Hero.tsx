@@ -76,7 +76,7 @@ export function Hero() {
         <span className="absolute right-[26px] top-[92px] h-3.5 w-3.5 border border-b-0 border-l-0 border-white/[0.28]" />
         <span className="absolute bottom-[26px] left-[26px] h-3.5 w-3.5 border border-r-0 border-t-0 border-white/[0.28]" />
         <span className="absolute bottom-[26px] right-[26px] h-3.5 w-3.5 border border-l-0 border-t-0 border-white/[0.28]" />
-        <span className="absolute right-[34px] top-[98px] font-mono text-[10px] tracking-[0.18em] text-greysoft opacity-50">
+        <span className="absolute right-[34px] top-[98px] font-mono text-[8px] tracking-[0.18em] text-greysoft opacity-50 md:text-[10px]">
           LAT -23.55, LON -46.63, MAI 2026
         </span>
       </div>

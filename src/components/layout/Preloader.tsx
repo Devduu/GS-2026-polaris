@@ -71,7 +71,7 @@ export function Preloader() {
       <div className="flex items-end gap-[clamp(20px,4vw,36px)]">
         <div className="relative h-[clamp(3.5rem,11vw,7rem)] w-0.5 self-stretch bg-fire/[0.16]">
           <span
-            className="absolute left-1/2 -translate-x-1/2 translate-y-[42%] drop-shadow-[0_0_8px_rgba(255,53,0,0.7)] transition-[bottom] duration-[120ms] ease-linear"
+            className="absolute left-1/2 -translate-x-1/2 translate-y-[42%] md:drop-shadow-[0_0_8px_rgba(255,53,0,0.7)] transition-[bottom] duration-[120ms] ease-linear"
             style={{ bottom: `${progress}%` }}
           >
             <svg width="20" height="34" viewBox="0 0 20 34" fill="none" aria-hidden>
