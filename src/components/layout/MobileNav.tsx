@@ -73,7 +73,7 @@ export function MobileNav() {
                 initial={prefersReduced ? false : { opacity: 0, x: -24 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: prefersReduced ? 0 : 0.1 + index * 0.06, ease: 'easeOut' }}
-                className="flex items-baseline gap-5 border-b border-white/10 py-5"
+                className="flex items-center gap-5 border-b border-white/10 py-5"
               >
                 <span className="font-mono text-[12px] tracking-wider text-fire">
                   {String(index + 1).padStart(2, '0')}
