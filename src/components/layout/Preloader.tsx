@@ -12,7 +12,7 @@ const SAFETY_TIMEOUT = 5000;
 
 /**
  * Preloader, foguete subindo numa trilha enquanto um contador vai de 000 a 100,
- * depois fade-out. Pula via botão "skip" ou direto em reduced-motion.
+ * depois fade-out. Em reduced-motion, encerra direto, sem a animação.
  */
 export function Preloader() {
   const [progress, setProgress] = useState(0);
@@ -99,14 +99,6 @@ export function Preloader() {
           showLogo ? 'scale-100 opacity-100' : 'scale-90 opacity-0',
         )}
       />
-
-      <button
-        type="button"
-        onClick={finish}
-        className="fixed bottom-[18px] right-[22px] text-[11px] lowercase tracking-[0.2em] text-greysoft opacity-30 transition-opacity hover:opacity-100"
-      >
-        skip
-      </button>
     </div>
   );
 }
